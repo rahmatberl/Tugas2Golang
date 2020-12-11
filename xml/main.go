@@ -38,7 +38,7 @@ type nilai struct {
 
 func getMahasiswa(w http.ResponseWriter, r *http.Request) {
 
-	var mhs mahasiswa
+	var mhs university
 	var ni nilai
 	params := mux.Vars(r)
 
